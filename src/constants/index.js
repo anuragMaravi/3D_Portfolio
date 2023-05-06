@@ -3,6 +3,10 @@ import {
     backend,
     creator,
     web,
+    java,
+    python,
+    blender,
+    vue,
     javascript,
     typescript,
     html,
@@ -15,11 +19,17 @@ import {
     git,
     figma,
     docker,
+    cmu,
+    blue,
+    srm,
+    sail,
     meta,
     starbucks,
     tesla,
     shopify,
     carrent,
+    mites,
+    mliot,
     jobit,
     tripguide,
     threejs,
@@ -42,52 +52,52 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
+      title: "IoT Specialist",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Machine Learning Engineer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Full-Stack Developer",
+      icon: web,
+    },
+    {
+      title: "3D Artist",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Vue",
+      icon: vue,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
@@ -105,66 +115,66 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "blender",
+      icon: blender,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
+      title: "Lead Researcher",
+      company_name: "Carnegie Mellon University",
+      icon: cmu,
+      iconBg: "#E6DEDD",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and deployed Mites system for operating sensors in buildings.",
+        "Administered the deployment of Mites system and 314 Mites devices in a fully occupied university building.",
+        "Developed and evaluated MLIoT, an end-to-end ML system for IoT applications.",
+        "Reduced labeling efforts in time series for IoT-based ML systems by up to 70%.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer Intern",
+      company_name: " BlueBanyan Technologies",
+      icon: blue,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Upgraded Android app to supervise state government hoardings and billboards.",
+        "Developed real-time truck tracking app for a mining company.",
+        "Supervised end-to-end development of NodeJS server and gym/fitness center app.",
+        "Implemented unsupervised anomaly detection algorithms to monitor fuel transportation pipes.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
+      title: "Lead Researcher",
+      company_name: "SRM SDN Labs",
+      icon: srm,
+      iconBg: "#E6DEDD",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created WiFi-based indoor localization system for real-time user tracking.",
+        "Leveraged AoA and Trilateration techniques for high-accuracy location prediction.",
+        "Presented the project on Advances In Positioning, Navigation And Communication (APNC) 2016.",
+        "Evaluated ELM and SVM algorithms for location prediction.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Industrial Trainee",
+      company_name: "Steel Authority of India Limited",
+      icon: sail,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led the implementation of unsupervised anomaly detection algorithms to monitor sensor conditions.",
+        "Utilized machine learning techniques to analyze large datasets and improve system reliability.",
+        "Improved operational efficiency by 30% and system reliability by 50%.",
+        "Monitored temperature and pressure sensors installed in fuel transportation pipes.",
       ],
     },
   ];
@@ -172,92 +182,92 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Working with Anurag on a project was an absolute pleasure. His experience with machine learning and IoT was evident in his work, and he always went above and beyond to deliver high-quality results. I highly recommend Anurag for any software development project.",
+      name: "Yuvraj Agarwal",
+      designation: "Professor/Advisor",
+      company: "Synergy Labs, CMU",
+      image: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=H4UeZ2MAAAAJ&citpid=2",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Anurag's knowledge and expertise in software development helped us create a powerful and user-friendly application that exceeded our expectations. His attention to detail and ability to solve complex problems made him an invaluable part of our team.",
+      name: "Mohit Sahu",
+      designation: "Co-Founder",
+      company: "BlueBanyan",
+      image: "https://www.mohitsahu.in/images/mohitsahu.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I had the privilege of being Anurag's supervisor during his time at SAIL. His work on unsupervised anomaly detection algorithms was innovative and highly effective, significantly improving our operational efficiency. I have no doubt that Anurag will continue to excel in his career.",
+      name: "Mr. GP Tiwari",
+      designation: "GM",
+      company: "SAIL",
+      image: "https://media.licdn.com/dms/image/C5103AQE1bKLcRhEw8w/profile-displayphoto-shrink_400_400/0/1538923547920?e=1688601600&v=beta&t=eRLm9aRi6SYk4mVT6TAWmbNjxvnmli8x4h2cE1BOtB4",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mites",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Scalable hardware-software system for managing distributed sensors in buildings. Robust primitives for privacy/security, data management, and machine learning. Deployed successfully with 314 Mites devices.",
       tags: [
         {
-          name: "react",
+          name: "IoT",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "distributedSystems",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "research",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: mites,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "MLIoT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A large-scale machine learning system for IoT applications that significantly improves accuracy and reduces latency while handling multiple IoT tasks in a scalable manner.",
       tags: [
         {
-          name: "react",
+          name: "machineLearning",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "restApi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "research",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: mliot,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "AbridgeML",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "End-to-end, plug-and-play ML system that automatically featurizes and labels device data modalities, and uses Toeplitz Inverse Covariance-Based Clustering (TICC) for highly accurate local environment and event recognition.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "machineLearning",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "research",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: mites,
       source_code_link: "https://github.com/",
     },
   ];
